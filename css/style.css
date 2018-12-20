@@ -1,0 +1,34 @@
+/* Header*/
+nav {
+    background-color: #444;
+    padding: 1em;
+    margin: 1.5em 0 2em 0;
+    border-radius: 0 60px 60px 0;
+    border-width: 3px 3px 3px 0;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.56);
+    color: #FFF;
+    width: 95%;
+}
+
+nav > a.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: 300%;
+    margin: 0 auto;
+}
+
+ul.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.navbar-nav a {
+    text-transform: uppercase;
+}
+
+ul.navbar-nav li:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
